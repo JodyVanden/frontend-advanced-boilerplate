@@ -1,0 +1,60 @@
+/* Card design */
+.image-size {
+  width:100px;
+}
+
+.form{
+  padding:50px;
+}
+
+.wrapper-grey{
+  background-color: #F4F4F4;
+  margin-top:30px;
+  padding: 30px;
+}
+
+.card-content-paris{
+  background-image:  image-url('card-paris.jpg');
+  background-size: cover;
+  border-radius: 6px;
+  height: 250px;
+  position: relative;
+  box-shadow: 1px 1px 0px 0px black ;
+  padding:20px;
+  margin-bottom: 20px;
+}
+.card-content-brussel{
+  background-image:  image-url('card-brussels.jpeg');
+  background-size: cover;
+  border-radius: 6px;
+  height: 250px;
+  position: relative;
+  box-shadow: 1px 1px 0px 0px black ;
+  padding:20px;
+   margin-bottom: 20px;
+
+}
+.card-content-london{
+  background-image:  image-url('card-london.jpeg');
+  background-size: cover;
+  border-radius: 6px;
+  height: 250px;
+  position: relative;
+  box-shadow: 1px 1px 0px 0px black ;
+  padding:20px;
+   margin-bottom: 20px;
+
+}
+.card-ville{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color:white;
+}
+
+.card-description{
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  color: white;
+}
